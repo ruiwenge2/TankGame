@@ -8,7 +8,9 @@ class Game extends Phaser.Scene {
   }
   
   preload(){
-    
+    this.load.image("tank", "images/tank.png");
+    this.load.image("base", "images/tankbase.png");
+    this.load.image("turret", "images/tankturret.png");
   }
   
   create() {
