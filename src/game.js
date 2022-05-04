@@ -12,9 +12,9 @@ class Game extends Phaser.Scene {
   }
   
   create() {
-    this.gametext = new Text(this, window.innerWidth / 2, 200, "Game").setOrigin(0.5);
-    var name = prompt("Hello what will your username be?");
-    alert("Hello " + name + "! Welcome to Supreme Tank Game!")
+    this.gametext = new Text(this, window.innerWidth / 2, 100, "Game", {fontSize: 100}).setOrigin(0.5);
+    // var name = prompt("Hello what will your username be?");
+    // alert("Hello " + name + "! Welcome to Supreme Tank Game!")
     
   }
   

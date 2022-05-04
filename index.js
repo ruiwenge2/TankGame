@@ -19,16 +19,12 @@ app.get("/", (req, res) => {
   res.render("index.html");
 });
 
-app.get("/login", (req, res) => {
-  res.render("login.html");
+app.get("/tanks", (req, res) => {
+  res.render("Tanks.html");
 });
 
-app.get("/signup", (req, res) => {
-  res.render("signup.html");
-});
-
-app.get("/skins", (req, res) => {
-  res.render("skins.html");
+app.get("/about", (req, res) => {
+  res.render("About.html");
 });
 
 server.listen(3000, () => {

@@ -20,5 +20,7 @@ document.getElementById("startGame").addEventListener("click", function(){
   const game = new Phaser.Game(config);
 
   game.scene.add("game", Game);
-  game.scene.start("game")
+  game.scene.start("game");
+  document.querySelector("canvas").style.cursor = "crosshair";
+  document.querySelector("main").style.display = "none";
 });
